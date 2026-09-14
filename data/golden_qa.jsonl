@@ -1,0 +1,20 @@
+{"question": "What do the k1 and b parameters control in BM25?", "relevant_docs": ["inverted-index-and-bm25.md"]}
+{"question": "Why can't you directly add BM25 scores and cosine similarity scores together?", "relevant_docs": ["hybrid-search-and-rrf.md"]}
+{"question": "How does the ef_search parameter trade recall against latency in HNSW?", "relevant_docs": ["ann-search-hnsw.md"]}
+{"question": "My users phrase questions with different words than the documents use, so keyword search finds nothing. What technique fixes this?", "relevant_docs": ["vector-embeddings.md", "hybrid-search-and-rrf.md"]}
+{"question": "When is a brute-force exact nearest neighbor scan actually the right choice?", "relevant_docs": ["ann-search-hnsw.md"]}
+{"question": "What is the difference between a bi-encoder and a cross-encoder?", "relevant_docs": ["reranking.md", "vector-embeddings.md"]}
+{"question": "How big should my chunks be and why does it matter?", "relevant_docs": ["chunking-strategies.md"]}
+{"question": "How do I measure whether my retriever is finding the right documents?", "relevant_docs": ["rag-evaluation.md"]}
+{"question": "What is the ReAct pattern?", "relevant_docs": ["agentic-search.md"]}
+{"question": "The model keeps ignoring information that sits in the middle of a long prompt. What is this problem called?", "relevant_docs": ["rag-failure-modes.md"]}
+{"question": "What is reciprocal rank fusion and why is the constant k needed?", "relevant_docs": ["hybrid-search-and-rrf.md"]}
+{"question": "How does product quantization reduce the memory footprint of a vector index?", "relevant_docs": ["ivf-and-pq.md"]}
+{"question": "I need both full-text keyword search and vector search over the same dataset. Should I pick a dedicated vector database?", "relevant_docs": ["elasticsearch-vs-milvus.md"]}
+{"question": "What problem does the Model Context Protocol solve?", "relevant_docs": ["tool-calling-and-mcp.md"]}
+{"question": "Why chunk documents at all instead of embedding each whole document as one vector?", "relevant_docs": ["chunking-strategies.md"]}
+{"question": "My assistant confidently makes up facts that aren't in the retrieved passages. How do I reduce this?", "relevant_docs": ["rag-failure-modes.md", "rag-pipeline.md"]}
+{"question": "What is HyDE and what asymmetry does it exploit?", "relevant_docs": ["advanced-rag-patterns.md"]}
+{"question": "How should a compound question comparing two things be handled by an agentic retriever?", "relevant_docs": ["agentic-search.md"]}
+{"question": "What does nprobe control in an IVF index?", "relevant_docs": ["ivf-and-pq.md"]}
+{"question": "Why is retrieved document content a prompt injection risk?", "relevant_docs": ["rag-failure-modes.md"]}
